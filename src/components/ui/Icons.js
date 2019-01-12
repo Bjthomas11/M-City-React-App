@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import mcityLogo from "../../Resources/images/logos/manchester_city_logo.png";
+import mcitylogo from "../../Resources/images/logos/manchester_city_logo.png";
 
 export const CityLogo = props => {
   const template = (
@@ -9,7 +9,7 @@ export const CityLogo = props => {
       style={{
         width: props.width,
         height: props.height,
-        background: `url(${mcityLogo}) no-repeat`
+        background: `url(${mcitylogo}) no-repeat`
       }}
     />
   );
