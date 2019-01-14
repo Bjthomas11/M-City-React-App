@@ -1,16 +1,17 @@
 import firebase from "firebase/app";
 import "firebase/app";
 import "firebase/database";
+import "firebase/auth";
 
-const config = {
-  apiKey: "AIzaSyDYiC4o4i1r3Hge4sdXEalB10KQ9rIWyQ0",
-  authDomain: "m-city-7874a.firebaseapp.com",
-  databaseURL: "https://m-city-7874a.firebaseio.com",
-  projectId: "m-city-7874a",
-  storageBucket: "m-city-7874a.appspot.com",
-  messagingSenderId: "669950819399"
+// Initialize Firebase
+var config = {
+  apiKey: "AIzaSyA2YVEpqOTfWZ0jEEBEoYiBHZah6gtMb2E",
+  authDomain: "m-city-7ed75.firebaseapp.com",
+  databaseURL: "https://m-city-7ed75.firebaseio.com",
+  projectId: "m-city-7ed75",
+  storageBucket: "m-city-7ed75.appspot.com",
+  messagingSenderId: "803327050361"
 };
-
 firebase.initializeApp(config);
 
 const firebaseDB = firebase.database();
